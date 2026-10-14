@@ -1,0 +1,7 @@
+     __pycache__/
+     *.pyc
+     data/
+     cache/
+     results_new/
+     *.edf
+     .ipynb_checkpoints/
