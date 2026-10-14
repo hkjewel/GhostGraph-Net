@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software or these results, please cite the associated manuscript and the CHB-MIT database."
+title: "GhostGraph-Net: code and per-patient results for cross-patient EEG seizure detection on CHB-MIT"
+type: software
+authors:
+  - family-names: Kabir
+    given-names: Md. Humayun
+    affiliation: "Department of Electrical and Electronic Engineering, American International University-Bangladesh (AIUB)"
+license: MIT
+repository-code: "https://github.com/hkjewel/GhostGraph-Net"
+keywords:
+  - epileptic seizure detection
+  - EEG
+  - graph neural network
+  - GhostNet
+  - CHB-MIT

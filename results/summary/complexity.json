@@ -1,0 +1,59 @@
+{
+ "GG-Net": {
+  "params": 28027,
+  "mflops": 12.292288,
+  "lat_ms": 5.628516189999999
+ },
+ "GG-Net w/o graph generator": {
+  "params": 24000,
+  "mflops": 9.590336,
+  "lat_ms": 5.070994980000023
+ },
+ "GG-Net w/o Ghost (std conv)": {
+  "params": 39823,
+  "mflops": 20.490304,
+  "lat_ms": 4.862661730000042
+ },
+ "GG-Net w/o handcrafted": {
+  "params": 27595,
+  "mflops": 12.278464,
+  "lat_ms": 6.267811310000013
+ },
+ "GG-Net w/o CNN branch": {
+  "params": 20919,
+  "mflops": 10.152128,
+  "lat_ms": 4.291660279999974
+ },
+ "GGN (re-impl.)": {
+  "params": 37119,
+  "mflops": 17.994048,
+  "lat_ms": 3.6780282099999795
+ },
+ "EEGNet": {
+  "params": 1906,
+  "mflops": 9.884224,
+  "lat_ms": 1.2026678399999469
+ },
+ "ShallowConvNet": {
+  "params": 34802,
+  "mflops": 38.17072,
+  "lat_ms": 1.4859365099999877
+ },
+ "CNN-LSTM": {
+  "params": 58530,
+  "mflops": 4.686208,
+  "lat_ms": 1.3806884199999558,
+  "mflops_note": 4.686208
+ },
+ "Static GCN": {
+  "params": 18002,
+  "mflops": 13.831296,
+  "lat_ms": 2.2152352199999825
+ },
+ "EEG Transformer": {
+  "params": 105282,
+  "mflops": 1.179904,
+  "lat_ms": 0.9686081499999943,
+  "mflops_note": 3.556096
+ }
+}
